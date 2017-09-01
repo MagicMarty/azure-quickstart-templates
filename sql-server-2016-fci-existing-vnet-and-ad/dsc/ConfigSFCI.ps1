@@ -193,7 +193,7 @@ configuration ConfigSFCI
             DependsOn = "[Script]MoveClusterGroups2"
             Action = "Prepare"
             SourcePath = "C:\"
-            SourceFolder = "SQLServer_13.0_Full"
+            SourceFolder = "SQLServerFull"
             UpdateSource = ""
             SetupCredential = $DomainCreds
             Features = "SQLENGINE,AS"
@@ -236,7 +236,7 @@ configuration ConfigSFCI
             DependsOn = "[Script]MoveClusterGroups3"
             Action = "Complete"
             SourcePath = "C:\"
-            SourceFolder = "SQLServer_13.0_Full"
+            SourceFolder = "SQLServerFull"
             UpdateSource = ""
             SetupCredential = $DomainCreds
             Features = "SQLENGINE,AS"
