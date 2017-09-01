@@ -98,7 +98,7 @@ configuration PrepSFCI
             DependsOn = "[xPendingReboot]Reboot1"
             Action = "Prepare"
             SourcePath = "C:\"
-            SourceFolder = "SQLServer_13.0_Full"
+            SourceFolder = "SQLServerFull"
             UpdateSource = ""
             SetupCredential = $DomainCreds
             Features = "SQLENGINE,AS"
